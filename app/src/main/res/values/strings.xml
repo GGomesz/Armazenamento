@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Escola</string>
+    <string name="button2">Nossos Cursos</string>
+    <string name="button4">Button</string>
+    <string name="button1">Nosso Endereço</string>
+    <string name="button3">Contato</string>
+    <string name="button5">Nosso Site</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="textview">sistemas de Energia Renovável</string>
+    <string name="todo">TODO</string>
+    <string name="textview2">Admisnistração</string>
+    <string name="txt_3">Mecânica</string>
+    <string name="txt_4">Eletrotécnica</string>
+    <string name="txt_5">Mecatrônica</string>
+    <string name="txt_6">Desenvolvimento de Sistemas</string>
+    <string name="txt_7">Contato</string>
+    <string name="txt_8">(11) 3834-4111</string>
+    <string name="txt_9">secretaria@basilides.com.br</string>
+</resources>
