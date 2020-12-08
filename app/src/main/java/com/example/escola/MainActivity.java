@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     Button btn_tela1;
     Button btn_tela2;
     Button btn_tela3;
+    Button btn_alunos;
+    Button btn_feedback;
 
 
     private Button btn_tela5;
@@ -22,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn_tela1 = (Button) findViewById(R.id.btn_tela1);
+
+        btn_alunos = (Button) findViewById(R.id.btn_aluno);
+
+        btn_feedback = (Button) findViewById(R.id.btn_feedback);
 
         btn_tela1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +46,26 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent incursos = new Intent(MainActivity.this, cursos.class);
+                startActivity(incursos);
+
+            }
+        });
+
+        btn_alunos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent incursos = new Intent(MainActivity.this, alunos.class);
+                startActivity(incursos);
+
+            }
+        });
+
+        btn_feedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent incursos = new Intent(MainActivity.this, fedback.class);
                 startActivity(incursos);
 
             }

@@ -16,4 +16,14 @@
     <string name="txt_7">Contato</string>
     <string name="txt_8">(11) 3834-4111</string>
     <string name="txt_9">secretaria@basilides.com.br</string>
+    <string name="alunos">Alunos</string>
+    <string name="limpar">limpar</string>
+    <string name="recuperar">recuperar</string>
+    <string name="email">email</string>
+    <string name="nome">Nome</string>
+    <string name="conteudo">conteudo</string>
+    <string name="titulo">titulo</string>
+    <string name="enviar">Enviar</string>
+    <string name="Salvar">salvar</string>
+    <string name="feedback">Feedback</string>
 </resources>
